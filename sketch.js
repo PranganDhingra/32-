@@ -31,7 +31,7 @@ function setup(){
     polygon_img=loadImage("polygon.png");
 
 
-    slingShot = new SlingShot (this.polygon, {x:100,y:200});
+    slingShot = new Slingshot (this.polygon, {x:100,y:200});
 
     ground1=new Ground(390,310,270,12);
 
